@@ -15,15 +15,15 @@ set wildmode=list:longest
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
-call plug#begin('~/.vim/plugged')
+" call plug#begin('~/.vim/plugged')
 
-  Plug 'dense-analysis/ale'
+"  Plug 'dense-analysis/ale'
 
-  Plug 'preservim/nerdtree'
+"  Plug 'preservim/nerdtree'
 
-call plug#end()
+" call plug#end()
 
-" }}}
+" }}} //uncomment from call plug beign to end
 
 " MAPPINGS --------------------------------------------------------------- {{{
 
