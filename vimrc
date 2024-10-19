@@ -3,17 +3,15 @@ set tabstop=4
 set autoindent
 set smartindent
 
-
-set number
+set number  relativenumber
 
 set syntax=on
 
-set mouse=a
+set mouse=v
 
 set hlsearch
 set wildmenu
 set wildmode=list:longest
-
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
@@ -90,9 +88,6 @@ let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', 
 
 " Another popular option is to bind it to Ctrl+L, since this is more or less the 
 " default for 'redrawn terminal screen', which is very roughly what you're doing:
-
-nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
-
 " }}}
 
 
